@@ -1,0 +1,296 @@
+body{
+  margin: 0px;
+}
+header{
+  margin: 0px;
+  padding: 0px;
+}
+.header img{
+  height: 100px;
+}
+ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.h{
+  padding: 10px;
+}
+img{
+  max-width: 100%;
+  clear: both;
+}
+/*menu*/
+
+
+
+/*content*/
+
+
+.container{
+  margin: 0 auto;
+}
+.row{
+  display: block;
+
+}
+.box1{
+  height: auto;
+  background-color: orange;
+  margin: 1.2%;
+  float: left;
+}
+.anhht{
+  overflow: hidden;
+  float: left;
+}
+.anhht img{
+  width: 100%;
+  height: 100%;
+}
+.sp{
+  float: right;
+}
+.box2{
+  height: 300px;
+  background-color: green;
+  margin: 1.2%;
+  float: left;
+}
+.box2 li{
+  padding: 0px;
+}
+.box3 {
+    height: auto;
+    background-color: #f1d136;
+    margin: 1.2%;
+    float: right;
+
+}
+.events{
+  height: auto;
+  background-color: lightgreen;
+  margin: 1.2%;
+  float: left;
+  clear: both;
+}
+.events li{
+  clear: both;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+.news{
+  height: auto;
+  background-color: lightblue;
+  margin: 1.2%;
+  float: left;
+}
+.right_ct {
+    height: auto;
+    background-color: #fff;
+    margin: 1.2%;
+    float: right;
+}
+.event_date{
+  border-radius: 8%;
+  background-color: red;
+  margin: 0px 5px 0px 5px;
+  text-align: center;
+  color: #fff;
+  float: left;
+}
+.text{
+  font-size: 15px;
+}
+.img{
+  float: left;
+  padding: 10px;
+  overflow: hidden;
+  max-width: 100%;
+}
+.img img:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.item img{
+  padding-left: 15px;
+}
+.item p{
+  float: right;
+  padding: 10px;
+}
+.list{
+  display: block;
+}
+.list_ev{
+  padding: 10px;
+  margin:0px;
+}
+.list_img{
+  max-width: 100%;
+  float: left;
+}
+.list a{
+  float: right;
+}
+.list li{
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  height: 150px;
+  background-color: #00BFFF;
+  clear: both;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  .container,.row,.box1,.box2,.box3,.events,.news,.right_ct
+}
+/*reponsive menu*/
+@media screen and (max-width: 100%0px){
+
+  .menu a:not(:first-child){display:none}
+  .menu a.icon{
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 100%0px){
+  .menu.reponsive{position: relative;}
+  .menu.reponsive a.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .menu.reponsive a{
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+ 
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ 
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+ 
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+ 
+/* 
+* When the screen is less than 600 pixels wide, 
+* hide all links, except for the first one ("Home"). 
+* Show the link that contains should open and close the topnav (.icon) 
+*/
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+ 
+/* 
+* The "responsive" class is added to the topnav with JavaScript 
+* when the user clicks on the icon. This class makes the topnav 
+* look good on small screens (display the links vertically instead of horizontally) 
+*/
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+div.img-adv, div.img-dktt, div.img-adv2 {
+    background: #d83000;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #ccc;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+        background: url(../images/hoso.png) no-repeat left #ee4216;
+    padding-left: 90px;
+    margin-bottom: 15px;
+      height: auto;
+
+}
+div.img-dktt {
+    background: url(../images/mail.png) no-repeat left #008c17;
+    padding: 15px 15px 10px 80px;
+    margin-bottom: 15px;
+    height: auto;
+}
+div.img-adv2 {
+    background: url(../images/tailieuhoctap.png) no-repeat left #2775ec;
+    padding: 20px 20px 20px 90px;
+    margin-bottom: 15px;
+      height: auto;
+}
+
+div.calendarDate {
+    background: url(../images/calendar.png) no-repeat left #5ca719;
+    padding: 15px 15px 10px 80px;
+    color: #fff;
+    max-height: 85px;
+    margin-bottom: 10px;
+}
+.right_ct{
+l
+}
